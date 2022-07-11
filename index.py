@@ -15,7 +15,7 @@ def index():
    elif 类型 == 'info':
       return api.info()
    else:
-      return redirect('https://bing-api-six.vercel.app/?api=bing')
+      return redirect('https://bing-api-i.vercel.app/?api=bing')
 
 
 
