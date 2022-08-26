@@ -20,13 +20,13 @@
     }
   ],
   "trailingSlash": true
-      }
-    {
+}
+{
     "version": 2,
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/",
+            "dest": "https://imgaz.pixiv.net",
             "headers": {
                 "cache-control": "ms-maxage=1000"
             }
