@@ -1,3 +1,4 @@
+
 {
   "builds": [
     {
@@ -19,17 +20,4 @@
     }
   ],
   "trailingSlash": true
-    }
-  ],
-   "version": 2,
-   "routes": [
-      {
-         "src": "/(.*)",
-         "dest": "/",
-          "headers": {
-              "cache-control": "ms-maxage=1000"
-            }
-        }
-    ]
-  }
-{
+}
